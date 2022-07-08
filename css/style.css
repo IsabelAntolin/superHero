@@ -1,0 +1,60 @@
+@font-face {
+  font-family: BADABB;
+  src: url(BADABB__.TTF)
+}
+
+
+body {
+  height: 100vh;
+  background-image: url('../img/fondo.jpg');
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+
+  margin: 0;
+  padding: 0;
+
+}
+
+.navbar img {
+  height: 4rem;
+}
+
+.contBuscarPer {
+  margin-top: 2rem;
+  padding-left: 3rem;
+}
+
+.contBuscarPer h1 {
+  color: rgb(245, 242, 61);
+  font-size: 3rem;
+  font-family: BADABB;
+  padding-top: 1.5rem;
+  margin-bottom: 10rem;
+
+}
+
+.contBuscarPer span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+}
+
+.contBuscarPer img {
+  max-width: 500px;
+}
+
+.contBuscarPer input {
+  width: 80%;
+
+}
+
+.contBuscarPer button {
+  margin-left: 1rem;
+
+}
+
+
+#chartContainer {
+  width: 100%;
+
+}
